@@ -1,0 +1,34 @@
+{
+	"name": "𝗦𝗢𝗨𝗥𝗖𝗘•𝗦𝗨𝗡𝗗𝗘𝗥𝗟𝗔",
+	"description": "بوت استخراج جلسات زد إي",
+	"logo": "https://telegra.ph/file/5b34abbaece9f896f90bb.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Source-Ze/Temp-Mail",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
